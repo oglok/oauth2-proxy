@@ -297,7 +297,7 @@ If a flag has the type `string | list` like the `--email-domain` flag it is
 available as an environment variable in plural form e.g. `OAUTH2_PROXY_EMAIL_DOMAINS`
 
 Values for type `string | list` usually have a plural environment variable name
-and need to be seperated by `,` e.g.
+and need to be separated by `,` e.g.
 `OAUTH2_PROXY_SKIP_AUTH_ROUTES="GET=^/api/status,POST=^/api/saved_objects/_import"`
 
 Please check the type for each [config option](#config-options) first.

@@ -980,7 +980,7 @@ N/A
   - This flag may now be given multiple times as with other list options
   - This flag also accepts comma separated values
 - [#639](https://github.com/oauth2-proxy/oauth2-proxy/pull/639) Change how gitlab-group is parsed on options
-  - Previously, the flag gitlab-group used comma seperated values, while the config option used space seperated values.
+  - Previously, the flag gitlab-group used comma separated values, while the config option used space separated values.
   - This fixes the config value to use slices internally.
   - The config option `gitlab_group` is now `gitlab_groups`
   - The environment variable `OAUTH2_PROXY_GITLAB_GROUP` is now `OAUTH2_PROXY_GITLAB_GROUPS`
